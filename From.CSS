@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form select,
+form button {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.profile-display {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eaf1ec;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.profile-display img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.profile-display h2,
+.profile-display p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.profile-display .skills {
+    display: flex;
+    gap: 10px;
+}

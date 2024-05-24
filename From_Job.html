@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Application Form</title>
+    <link rel="stylesheet" href="From.CSS">
+</head>
+<body>
+    <div class="container">
+        <form id="profileForm">
+            <h2>Profile Form</h2>
+            <label for="fullName">Full name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+            
+            <label for="profession">Profession:</label>
+            <input type="text" id="profession" name="profession" required>
+            
+            <label for="photo">Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="linkedin">LinkedIn Profile:</label>
+            <input type="url" id="linkedin" name="linkedin">
+            
+            <label for="github">GitHub Profile:</label>
+            <input type="url" id="github" name="github">
+            
+            <label for="skills">Skills (maximum 3):</label>
+            <select id="skills" name="skills" multiple required>
+                <option value="HTML">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Git">Git</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="AJAX">AJAX</option>
+                <option value="React">React</option>
+            </select>
+            
+            <button type="button" onclick="submitForm()">Enviar</button>
+        </form>
+        
+        <div id="profileDisplay" class="profile-display"></div>
+    </div>
+    
+    <script src="LogiFrom.js"></script>
+</body>
+</html>

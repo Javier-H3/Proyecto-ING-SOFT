@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(white, rgb(236, 236, 236), rgb(0, 0, 0));
+
+}
+
+.header {
+    background: linear-gradient(to right, #dfdfdf, #d16a36);
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+}
+
+.logo p {
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: right;
+    margin: 0;
+    color: #aa5422;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu .icon {
+    height: 60px;
+    margin-right: 15px;
+}
+
+.menu span {
+    font-size: 1.5em;
+    color: #000;
+}
+
+section.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+
+}
+
+.about-content,
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content {
+    flex: 2;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+.text-content h2 {
+    font-size: 3.7em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 2em;
+}
+
+.image-content {
+    flex: 1;
+    padding-top: 50px;
+}
+
+.image-content img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+
+}
+
+section.our-trajectory {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+
+}
+
+.trajectory-content {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.tt-content {
+    flex: 2;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+.tt-content h2 {
+    font-size: 3.7em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.tt-content p {
+    font-size: 2em;
+
+}
+
+.image-content {
+    flex: 1;
+    padding-top: 50px;
+
+}
+
+.image-content img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+
+}
+
+.mission-vision {
+    background: linear-gradient(white, gray);
+}
+
+.mission,
+.vision {
+    flex: 1;
+    max-width: 40%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+
+}
+
+.mission h2,
+.vision h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.mission p,
+.vision p {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.mission-vision img {
+    max-width: 50%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 350px;
+}
+
+.job-opening {
+    display: flex;
+    align-items: center;
+    background: gray;
+    background: linear-gradient(gray, rgb(77, 75, 75));
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.image-job {
+    flex: 1;
+    max-width: 40%;
+}
+
+.image-job img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.job-content {
+    flex: 2;
+    padding-left: 40px;
+    padding-bottom: 80px;
+    padding-right: 250px;
+}
+
+.job-content h2 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.job-content p {
+    font-size: 1.7em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 30px 20px;
+    margin-top: 20px;
+    margin-left: 28em;
+    font-size: 1.7em;
+    color: #fff;
+    background-color: #cf6f3f;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: 1s background;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: #e07334;
+}
+
+footer {
+    padding: 10px;
+}
+
+
+.copyrigt {
+    color: aliceblue;
+    padding-left: 50px;
+    font-size: 2em;
+    margin: 20px;
+}
